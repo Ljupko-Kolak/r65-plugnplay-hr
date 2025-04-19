@@ -17,7 +17,7 @@ Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irf
 ## Compatibility
 - **Keyboard**: Royal Kludge R65, wired ANSI version only.
 - **Warning**: Do NOT flash on wireless or ISO variants, as it may brick the keyboard.
-- Check your keyboard’s PID (e.g., e453 or e481). Older PIDs (e.g., 0172) may not support QMK/VIA. Check the [variants repository by @roperscrossroads](https://github.com/roperscrossroads/r65-variants) for more information.
+- Check your keyboard’s PID (e.g., e453 or e481). Older PIDs may not support QMK/VIA. Check the [variants repository by @roperscrossroads](https://github.com/roperscrossroads/r65-variants) for more information.
 
 ## Installation
 1. **Set Up QMK**:
@@ -34,6 +34,7 @@ Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irf
       - Enter bootloader mode (press reset switch, Escape, or Fn+Shift+Esc).
       - Flash the `.bin` or `.hex` file.
    - __On Linux__
+      - Enter bootloader mode (press reset switch, Escape, or Fn+Shift+Esc).
       - Run `qmk flash -kb rk/r65 -km plugnplay_hr`
 6. **Test**:
    - The keyboard starts in PNP mode (US QWERTY output).
