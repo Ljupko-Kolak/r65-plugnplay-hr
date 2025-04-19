@@ -27,7 +27,7 @@ Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irf
    - Download this repository.
    - Copy the `keymaps/plugnplay_hr/` folder to `qmk_firmware/keyboards/rk/r65/keymaps/`.
 3. **Compile Firmware**:
-   - Run `qmk compile -kb rk/r65 -km plugnplay_hr`.
+   - Run `qmk compile -kb rk/r65 -km plugnplay_hr` in your console/ terminal.
    - Find the `.bin` or `.hex` file in `qmk_firmware/`.
 4. **Flash Firmware**:
    - __On Windows__
@@ -36,7 +36,7 @@ Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irf
       - Flash the `.bin` or `.hex` file.
    - __On Linux__
       - Enter bootloader mode (press reset switch, Escape, or Fn+Shift+Esc).
-      - Run `qmk flash -kb rk/r65 -km plugnplay_hr`
+      - Run `qmk flash -kb rk/r65 -km plugnplay_hr`  in your console/ terminal.
 6. **Test**:
    - The keyboard starts in PNP mode (US QWERTY output).
    - Press FN + the rotary encoder to switch to Regular mode (Croatian QWERTZ).
