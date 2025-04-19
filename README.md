@@ -6,6 +6,8 @@ It is highly likely to work with Bosnian, Serbian (Latin), and Slovenian layouts
 
 Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irfanjmdn/r65).
 
+![r65](https://github.com/user-attachments/assets/ff57b0ae-d368-4a9d-9b94-b11eaceebda5)
+
 ## Features
 - **Plug N Play Layer (PNP)**: Outputs US QWERTY characters on a Croatian QWERTZ PC.
 - **Regular Layer**: Outputs standard Croatian QWERTZ characters.
