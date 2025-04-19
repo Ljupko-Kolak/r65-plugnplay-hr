@@ -22,7 +22,7 @@ Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irf
 ## Installation
 1. **Set Up QMK and firmware**:
    - Follow steps 1, 2, and 3 from the guide for installing the [firmware by @irfanjmdn](https://github.com/irfanjmdn/r65).
-      - If the link for downloading irfanjmdn's firmwware is not working for you, you can just click on the green "Code" button on top and download it as a .zip and extract it.
+      - If the link for downloading the firmware is not working for you, you can just click on the green "Code" button on top and download it as a .zip and extract it.
 2. **Add Keymap**:
    - Download this repository.
    - Copy the `keymaps/plugnplay_hr/` folder to `qmk_firmware/keyboards/rk/r65/keymaps/`.
