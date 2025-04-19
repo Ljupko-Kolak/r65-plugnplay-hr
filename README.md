@@ -35,8 +35,8 @@ Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irf
       - Enter bootloader mode (press reset switch, Escape, or Fn+Shift+Esc).
       - Flash the `.bin` or `.hex` file.
    - __On Linux__
-      - Enter bootloader mode (press reset switch, Escape, or Fn+Shift+Esc).
       - Run `qmk flash -kb rk/r65 -km plugnplay_hr`  in your console/ terminal.
+      - Enter bootloader mode (press reset switch, Escape, or Fn+Shift+Esc).
 6. **Test**:
    - The keyboard starts in PNP mode (US QWERTY output).
    - Press FN + the rotary encoder to switch to Regular mode (Croatian QWERTZ).
