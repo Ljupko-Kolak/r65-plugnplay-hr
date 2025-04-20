@@ -47,7 +47,7 @@ Based on the VIA keymap from the [firmware by @irfanjmdn](https://github.com/irf
 - **PNP Mode (Layer 0)**: Types US QWERTY characters. Hold FN for functions or Croatian characters.
 - **Regular Mode (Layer 2)**: Types Croatian QWERTZ characters. Hold FN for functions.
 - **Layer Toggle**: Hold FN and press the rotary encoder to switch modes.
-- **LED**: High for PNP, low for Regular.
+- **LED**: Off for PNP, on for Regular.
 - **VIA Support**: Customize keymaps via VIA configurator.
 
 ## Files
